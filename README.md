@@ -75,6 +75,38 @@ Integrated with GMM and KMeans for enhanced clustering:
 | DBSCAN          | 0.698 | 0.756 | 0.751 | 0.672    |
 | GNN             | 0.510 | 0.739 | 0.614 | 2.516    |
 
+### GMM with Swarm-Based Optimizers on NdpKO_R1 Dataset
+
+| Method         | ARI     | NMI     | FMI     | Time (s) |
+|----------------|---------|---------|---------|----------|
+| GMM + PSO      | **0.922** | 0.883   | **0.936** | 4347     |
+| GMM + GWO      | 0.706   | 0.807   | 0.763   | 1560     |
+| GMM + ABC      | 0.887   | 0.858   | 0.909   | **4560** |
+| GMM + FFA      | 0.708   | 0.766   | 0.761   | 1974     |
+| GMM + BA       | 0.735   | 0.818   | 0.784   | 3938     |
+
+### KMeans with Swarm-Based Optimizers on Pbmc3k Dataset
+
+| Method         | ARI   | NMI   | FMI   | Time (s) |
+|----------------|-------|-------|-------|----------|
+| KMeans + PSO   | 0.774 | 0.769 | 0.839 | 10       |
+| KMeans + GWO   | 0.771 | 0.769 | 0.834 | 17       |
+| KMeans + ABC   | 0.772 | 0.771 | 0.836 | 28       |
+| KMeans + FFA   | 0.774 | 0.769 | 0.839 | 10       |
+| KMeans + BA    | **0.776** | **0.771** | **0.840** | **21**   |
+
+---
+
+### KMeans with Swarm-Based Optimizers on NdpKO_R1 Dataset
+
+| Method         | ARI     | NMI     | FMI     | Time (s) |
+|----------------|---------|---------|---------|----------|
+| KMeans + PSO   | **0.912** | **0.888** | **0.929** | **16**   |
+| KMeans + GWO   | 0.898   | 0.878   | 0.918   | 22       |
+| KMeans + ABC   | 0.900   | 0.882   | 0.920   | 33       |
+| KMeans + FFA   | 0.859   | 0.855   | 0.885   | 12       |
+| KMeans + BA    | 0.901   | 0.882   | 0.920   | 24       |
+
 ---
 
 ## Visualizations 📈
@@ -91,4 +123,4 @@ Detailed UMAP-reduced plots are provided in the report, showcasing cluster forma
 
 ## Jupyter Notebook 📓
 
-Explore the complete analysis, code, and visualizations in the [Jupyter Notebook](#). 
+Explore the complete analysis, code, and visualizations in the [Jupyter Notebook]([#](https://drive.google.com/file/d/1ixDN295fTTD6Q0DPBjE_xmEz4fxgYlZF/view?usp=sharing)). 
