@@ -123,4 +123,4 @@ Detailed UMAP-reduced plots are provided in the report, showcasing cluster forma
 
 ## Jupyter Notebook 📓
 
-Explore the complete analysis, code, and visualizations in the [Jupyter Notebook]([#](https://drive.google.com/file/d/1ixDN295fTTD6Q0DPBjE_xmEz4fxgYlZF/view?usp=sharing)). 
+Explore the complete analysis, code, and visualizations in the [Jupyter Notebook](https://drive.google.com/file/d/1ixDN295fTTD6Q0DPBjE_xmEz4fxgYlZF/view?usp=sharing). 
