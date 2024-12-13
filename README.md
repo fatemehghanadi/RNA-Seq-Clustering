@@ -80,3 +80,15 @@ Integrated with GMM and KMeans for enhanced clustering:
 ## Visualizations 📈
 Detailed UMAP-reduced plots are provided in the report, showcasing cluster formations for each algorithm.
 
+![Agglomorative](imgs/aggl.png)
+
+![GMM_Swarm](imgs/gmm_and_swarm.png)
+
+![Kmeans_Swarm](imgs/kmeans_and_swarm.png)
+
+
+---
+
+## Jupyter Notebook 📓
+
+Explore the complete analysis, code, and visualizations in the [Jupyter Notebook](#). 
